@@ -2,7 +2,7 @@ const playerPick = document.querySelector(".player-pick");
 const compPick = document.querySelector(".comp-pick");
 const optionPlayer = playerPick.querySelectorAll(".option");
 const optionComp = compPick.querySelectorAll(".option");
-const boxScore = document.querySelector(".box-score");
+const boxScore = document.querySelector(".score");
 const resultText = document.querySelector(".result-text");
 
 const gameResult = {

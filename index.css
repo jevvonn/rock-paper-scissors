@@ -40,10 +40,15 @@ body {
   width: 100px;
   height: 80px;
   padding: 10px;
-  font-size: 40px;
+  /* font-size: 40px; */
   color: hsl(229, 25%, 31%);
-  line-height: 80px;
+  line-height: 5px;
   text-align: center;
+}
+
+.box-score h2 {
+  transform: translateY(-25px);
+  font-size: 60px;
 }
 
 .all-area {
