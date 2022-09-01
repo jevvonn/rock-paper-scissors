@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="score-area">
+        <img src="img/logo.png" width="120" />
+        <div class="result-area">
+          <h1 class="result-text"></h1>
+        </div>
+        <div class="box-score">0</div>
+      </div>
+
+      <div class="state-area">
+        <h3></h3>
+      </div>
+
+      <div class="all-area">
+        <div class="wrap-pick-area">
+          <h2>PLAYER</h2>
+          <div class="pick-area player-pick">
+            <div class="option paper" data-option="paper">
+              <img src="img/icon-paper.png" alt="" />
+            </div>
+            <div class="option rock" data-option="rock">
+              <img src="img/icon-rock.png" alt="" />
+            </div>
+            <div class="option scissors" data-option="scissors">
+              <img src="img/icon-scissors.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <h2>VS</h2>
+        <div class="wrap-pick-area">
+          <h2>COMPUTER</h2>
+          <div class="pick-area comp-pick">
+            <div class="option paper blocked" data-option="paper">
+              <img src="img/icon-paper.png" alt="" />
+            </div>
+            <div class="option rock blocked" data-option="rock">
+              <img src="img/icon-rock.png" alt="" />
+            </div>
+            <div class="option scissors blocked" data-option="scissors">
+              <img src="img/icon-scissors.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
