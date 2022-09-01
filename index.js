@@ -29,6 +29,8 @@ const resartGame = () => {
       option.classList.remove("choose");
       option.classList.remove("blocked");
     });
+
+    resultText.textContent = "YOUR TURN"
   }, 1800);
 };
 
